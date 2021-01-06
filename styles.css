@@ -1,0 +1,130 @@
+body {
+  text-align: center;
+  /* background-color: #283149; */
+  background-color: #e4e978;
+  padding: 5% 2% 0;
+}
+
+h1 {
+  font-size: 8rem;
+  /* color: #DBEDF3; */
+  color: #d35d6e;
+  font-family: "Arvo", cursive;
+  /* text-shadow: 15px 10px #DA0463; */
+  text-shadow: 15px 10px #DBEDF3;
+  padding-right: 2%;
+}
+
+footer {
+  color: navy;
+  font-family: "Arvo", cursive;;
+}
+
+.a {
+  background-image: url("images/tom1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.s {
+  background-image: url("images/tom2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.d {
+  background-image: url("images/tom3.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 70%;
+}
+
+.f {
+  background-image: url("images/tom4.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 70%;
+}
+
+.j {
+  background-image: url("images/kick.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.k {
+  background-image: url("images/snare.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 60%;
+}
+
+.l {
+  background-image: url("images/crash.png");
+  background-repeat: no-repeat;
+  background-position: 50% -10%;
+  background-size: 80%;
+}
+
+.set {
+  margin: 5% auto 1%;
+}
+
+.key-set {
+  margin: 0 auto 5%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  /* border: 10px solid #404B69; */
+  border: 10px solid #f2f4c0;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  /* line-height: 0; */
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0 10px;
+  background-color: white;
+}
+
+.key {
+  outline: none;
+  /* border: 10px solid #404B69; */
+  border: 10px solid #f2f4c0;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  /* line-height: 2; */
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0px 3.7%;
+  background-color: white;
+}
